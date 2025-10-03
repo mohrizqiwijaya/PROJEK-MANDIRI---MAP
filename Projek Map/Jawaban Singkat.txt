@@ -1,0 +1,5 @@
+a. Bedanya tampilan kedua peta?
+Peta Web Mercator sedikit terdistorsi (wilayah terlihat melebar), sedangkan EPSG:4326 lebih sesuai dengan bentuk koordinat geografis asli.
+
+b. Kenapa web lebih sering pakai Web Mercator?
+Karena kompatibel dengan hampir semua layanan peta online (Google Maps, OSM), mendukung tile map dengan cepat, dan lebih stabil untuk visualisasi web.
