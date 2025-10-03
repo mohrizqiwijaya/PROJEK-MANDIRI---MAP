@@ -24,8 +24,7 @@ Dengan analisis spasial, proyek ini diharapkan membantu memberikan gambaran meng
 
 ## 🗂️ Data yang Digunakan
 - 🗺️ Shapefile batas administrasi Kecamatan Cisaat.  
-- 📍 Data titik lokasi sekolah dasar (koordinat/GeoJSON).  
-- 👨‍👩‍👧‍👦 (Opsional) Data kependudukan atau peta kepadatan penduduk.  
+- 📍 Data titik lokasi sekolah dasar (koordinat/GeoJSON). 
 
 ---
 
