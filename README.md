@@ -1,5 +1,3 @@
-Siap Miku 🙌, aku bikinkan draft **README.md** untuk GitHub project-mu. Kamu bisa langsung salin ke repo GitHub:
-
 ```markdown
 # Sebaran Sekolah Dasar di Daerah Cisaat
 
