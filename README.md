@@ -1,39 +1,50 @@
-```markdown
-# Sebaran Sekolah Dasar di Daerah Cisaat
+# 📍 Sebaran Sekolah Dasar di Daerah Cisaat
 
-## 📌 Informasi
-- **Mata Kuliah:** Sistem Informasi Geografis  
-- **Nama:** R. Tb. Moh. Rizqi Wijaya  
-- **Judul Proyek:** Sebaran Sekolah Dasar di Daerah Cisaat  
+## 📝 Informasi Proyek
+- **Mata Kuliah** : Sistem Informasi Geografis  
+- **Nama**       : R. Tb. Moh. Rizqi Wijaya  
+- **Judul**      : Sebaran Sekolah Dasar di Daerah Cisaat  
+
+---
 
 ## 📖 Deskripsi
-Proyek ini dibuat untuk menganalisis dan memvisualisasikan sebaran sekolah dasar yang berada di Kecamatan Cisaat, Sukabumi menggunakan Sistem Informasi Geografis (SIG).  
-Hasil dari proyek ini diharapkan dapat memberikan gambaran mengenai distribusi sekolah dasar dan keterjangkauannya bagi masyarakat sekitar.
+Proyek ini bertujuan untuk menganalisis dan memvisualisasikan **sebaran sekolah dasar** di Kecamatan Cisaat, Sukabumi menggunakan **Sistem Informasi Geografis (SIG)**.  
+Dengan analisis spasial, proyek ini diharapkan membantu memberikan gambaran mengenai distribusi sekolah dasar serta keterjangkauannya bagi masyarakat sekitar.
+
+---
 
 ## 🎯 Tujuan
 - Menampilkan peta sebaran sekolah dasar di Kecamatan Cisaat.  
-- Membandingkan tampilan peta dalam dua sistem koordinat: **Web Mercator (EPSG:3857)** dan **WGS84 (EPSG:4326)**.  
+- Membandingkan tampilan peta pada dua sistem koordinat:  
+  - 🌍 **Web Mercator (EPSG:3857)**  
+  - 🗺️ **WGS84 (EPSG:4326)**  
 - Menambahkan data GeoJSON sebagai contoh titik lokasi sekolah dasar.  
 
+---
+
 ## 🗂️ Data yang Digunakan
-- Shapefile batas administrasi Kecamatan Cisaat.  
-- Data titik lokasi sekolah dasar (koordinat/GeoJSON).    
+- 🗺️ Shapefile batas administrasi Kecamatan Cisaat.  
+- 📍 Data titik lokasi sekolah dasar (koordinat/GeoJSON).  
+- 👨‍👩‍👧‍👦 (Opsional) Data kependudukan atau peta kepadatan penduduk.  
+
+---
 
 ## 🛠️ Tools & Teknologi
-- **QGIS** / **ArcGIS** → untuk pengolahan data spasial.  
-- **Leaflet.js** / **Mapbox** → untuk visualisasi peta berbasis web.  
-- **GeoJSON** → format data lokasi sekolah dasar.  
+- **QGIS** / **ArcGIS** → pengolahan data spasial  
+- **Leaflet.js** / **Mapbox** → visualisasi peta berbasis web  
+- **GeoJSON** → penyimpanan titik lokasi sekolah dasar  
+
+---
 
 ## 📷 Hasil
 1. Peta dalam proyeksi **Web Mercator (EPSG:3857)**  
 2. Peta dalam proyeksi **WGS84 (EPSG:4326)**  
-3. Screenshot sebaran sekolah dasar dalam bentuk peta digital.  
-
-## ✍️ Kesimpulan
-- Tampilan peta Web Mercator mengalami sedikit distorsi, sedangkan EPSG:4326 lebih proporsional sesuai koordinat geografis asli.  
-- Web Mercator lebih sering dipakai pada peta berbasis web karena kompatibilitasnya dengan tile map global seperti Google Maps dan OpenStreetMap.  
+3. Screenshot sebaran sekolah dasar  
 
 ---
-```
 
-Mau aku tambahin juga **contoh struktur folder project** (misalnya `/data`, `/src`, `/docs`) biar repo GitHub-mu lebih rapi?
+## ✍️ Kesimpulan
+- Peta **Web Mercator** mengalami sedikit distorsi terutama di wilayah kutub, sedangkan **EPSG:4326** lebih proporsional sesuai koordinat geografis.  
+- **Web Mercator** lebih sering digunakan untuk peta berbasis web karena mendukung tile map global (Google Maps, OpenStreetMap).  
+
+---
